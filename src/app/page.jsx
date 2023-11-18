@@ -90,7 +90,7 @@ export default function Home() {
                             </div>
                         </div>
                         <DialogFooter>
-                            <DialogPrimitive.Close onClick={() => setSlug('')} className={buttonVariants({ variant: 'destructive' })} children="Close" />
+                            <DialogPrimitive.Close onClick={() => setSlug('')} className={buttonVariants({ variant: 'destructive' })}><Button>Close</Button></DialogPrimitive.Close>
                             <Button type="submit" onClick={onCreateNewCdn}>Create</Button>
                         </DialogFooter>
                     </DialogContent>
@@ -346,7 +346,7 @@ export default function Home() {
                                                 <ScrollBar orientation="horizontal"/>
                                             </ScrollArea>
                                             <DialogFooter>
-                                                <DialogPrimitive.Close onClick={() => setSlug('')} className={buttonVariants({ variant: 'destructive' })} children="Close" />
+                                            <DialogPrimitive.Close onClick={() => setSlug('')} className={buttonVariants({ variant: 'destructive' })}><Button>Close</Button></DialogPrimitive.Close>
                                             </DialogFooter>
                                         </DialogContent>
                                     </Dialog>
