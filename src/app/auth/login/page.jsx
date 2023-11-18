@@ -65,7 +65,7 @@ export default function Login() {
                 </Card>
             </div>
             <div className="flex justify-center md:px-30 mt-4">
-                <p style={{fontSize: 13}}>Don't have an Account? <Link href="/auth/register" className={buttonVariants({variant:'link'})} >Create</Link></p>
+                <p style={{fontSize: 13}}>Dont have an Account? <Link href="/auth/register" className={buttonVariants({variant:'link'})} >Create</Link></p>
             </div>
         </>
     )
